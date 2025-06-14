@@ -23,3 +23,7 @@ PvP Magic is a new PvP addon and a work in progress.
 - Client-side announcer voiceovers.
 - Interface and settings panel for tracking/configuring/viewing it all.
 - And more! Give me some ideas on GitHub and social media.
+
+# How to install
+Unzip to "World of Warcraft\_retail_\Interface\AddOns\"
+Make sure the folder name is correct: "PvPMagic" (excluding quotes, keeping capitalization).
