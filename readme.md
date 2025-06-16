@@ -13,17 +13,22 @@ PvP Magic is a new PvP addon and a work in progress.
 # Currently, it can do the following:
 - Welcome the player upon entering the game with their current honor level and an encouraging message to participate in more PvP.
 - Slash command for firing the welcome message on demand: "/pvpmagic wt"
+- Voiceovers for events: Player Death, Killing Blows, Mage Table, Warlock Soulwell, Welcome Message (on login event), PvP Match Start, Addon's Target Caller.
+- Troll song for 5 deaths without a killing blow.
+- Target caller with assignable macro and toggle command /pvpmagic tcaller
+    Target caller is in two parts: main addon code that assigns a sound file to the event and types in party/raid chat, and a macro that can be placed on any action bar slot that will focus your target (which fires the addon code), attacks, pings the focus target, and adds a skull raid icon to the focus target. When clearing focus, the raid icon also gets auto-cleared.
+
 
 # What I hope to work on and have planned, and what it might do in the future:
 - Battleground/Arena after-action reports with heatmaps of deaths, captures, and team fights.
 - Damage Reports.
 - Healer Tracker.
-- K/D/A W/L History.
+- K/D/A, W/L History.
 - Unit Frames similar to Battleground Enemies (if I get that good at this).
-- Client-side announcer voiceovers.
+- ~~Client-side announcer voiceovers.~~
 - Interface and settings panel for tracking/configuring/viewing it all.
 - And more! Give me some ideas on GitHub and social media.
 
 # How to install
-Unzip to "World of Warcraft\_retail_\Interface\AddOns\"
-Make sure the folder name is correct: "PvPMagic" (excluding quotes, keeping capitalization).
+Unzip to: "World of Warcraft\_retail_\Interface\AddOns\"
+Make sure the folder name is correct: "PvPMagic" (excluding quotes, preserving capitalization).
