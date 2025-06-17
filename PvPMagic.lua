@@ -277,7 +277,7 @@ end)
 local function CreateFocusCallMacro()
     local macroName = "FocusCall"
     local macroIcon = "INV_Misc_QuestionMark"
-    local macroBody = "/focus target\n/ping [@focus] attack\n/script SetRaidTarget('focus', 8)"
+    local macroBody = "/focus target\n/ping [@focus] attack"
     local macroIndex = GetMacroIndexByName(macroName)
     if macroIndex == 0 then
         if GetNumMacros() < MAX_ACCOUNT_MACROS then
