@@ -1,9 +1,13 @@
-## Interface: 110005
+## Interface: 110107
 ## Title: PvPMagic
-## Version: 1.0
+## Version: 1.6
 ## Notes: PvP Tool Kit By. PrincessLuna
 ## Author: PrincessLuna
-## SavedVariables: PvPMagicDB
+## SavedVariables: PvPMagicDB, PvPMagicTrackerDB
 ## DefaultState: enabled
 
-PvPMagic.lua
+Core.lua
+Welcome.lua
+SoundEvents.lua
+Targetcaller.lua
+Trollsong.lua
