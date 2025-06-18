@@ -24,7 +24,7 @@ PvP Magic is a new PvP addon and a work in progress.
 - Healer Tracker.
 - K/D/A, W/L History.
 - Unit Frames similar to Battleground Enemies (if I get that good at this).
-- Client-side announcer voiceovers.
+- ~~Client-side announcer voiceovers.~~
 - Interface and settings panel for tracking/configuring/viewing it all.
 - And more! Give me some ideas on GitHub and social media.
 
